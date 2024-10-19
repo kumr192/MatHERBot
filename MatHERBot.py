@@ -5,7 +5,7 @@ import openai
 
 # configuring streamlit page settings
 st.set_page_config(
-    page_title="Matter Botter Bottish",
+    page_title="Bittoo MatHERbot",
     page_icon="💬",
     layout="centered"
 )
@@ -24,7 +24,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # streamlit page title
-st.title("🤖 Matter Botter Bottish ")
+st.title("🤖 Bittoo MatHERBot ")
 
 # display chat history
 for message in st.session_state.chat_history:
